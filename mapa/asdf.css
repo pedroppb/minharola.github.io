@@ -1,0 +1,18 @@
+table  {
+	border-top-style: double;
+	border-bottom-style: double;
+}
+tr, td{
+  border: 2px solid blue;
+}
+th[colspan], td[rowspan]{
+	background-image: linear-gradient(to right, white, black);
+}
+.cent{
+text-align: center;	
+}
+td{
+	background-image: url(img/fundo.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
