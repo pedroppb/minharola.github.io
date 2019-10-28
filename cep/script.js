@@ -1,24 +1,24 @@
 function limpar(){
 			var algo=document.getElementById("algo");
 			var limpo=document.getElementById("limpo");
-			penis=new String(algo.value);
+			paralimpar=new String(algo.value);
 			limpado="";
 			let cont=0;
 			do{
 				
 				if(
-					penis.substr(cont,1)=="1" ||
-					penis.substr(cont,1)=="2" ||
-					penis.substr(cont,1)=="3" ||
-					penis.substr(cont,1)=="4" ||
-					penis.substr(cont,1)=="5" ||
-					penis.substr(cont,1)=="6" ||
-					penis.substr(cont,1)=="7" ||
-					penis.substr(cont,1)=="8" ||
-					penis.substr(cont,1)=="9" ||
-					penis.substr(cont,1)=="0"
+					paralimpar.substr(cont,1)=="1" ||
+					paralimpar.substr(cont,1)=="2" ||
+					paralimpar.substr(cont,1)=="3" ||
+					paralimpar.substr(cont,1)=="4" ||
+					paralimpar.substr(cont,1)=="5" ||
+					paralimpar.substr(cont,1)=="6" ||
+					paralimpar.substr(cont,1)=="7" ||
+					paralimpar.substr(cont,1)=="8" ||
+					paralimpar.substr(cont,1)=="9" ||
+					paralimpar.substr(cont,1)=="0"
 					){
-					limpado = limpado+penis.substr(cont,1);
+					limpado = limpado+paralimpar.substr(cont,1);
 					}
 			cont++
 			}while (cont <= algo.value.length);		
@@ -29,24 +29,24 @@ function limpar(){
 function formatacep(){
 	var cep=document.getElementById("cep");
 
-			penis2=new String(cep.value);
+			limpacep=new String(cep.value);
 			limpado="";
 			let cont=0;
 			do{
 				
 				if(
-					penis2.substr(cont,1)=="1" ||
-					penis2.substr(cont,1)=="2" ||
-					penis2.substr(cont,1)=="3" ||
-					penis2.substr(cont,1)=="4" ||
-					penis2.substr(cont,1)=="5" ||
-					penis2.substr(cont,1)=="6" ||
-					penis2.substr(cont,1)=="7" ||
-					penis2.substr(cont,1)=="8" ||
-					penis2.substr(cont,1)=="9" ||
-					penis2.substr(cont,1)=="0"
+					limpacep.substr(cont,1)=="1" ||
+					limpacep.substr(cont,1)=="2" ||
+					limpacep.substr(cont,1)=="3" ||
+					limpacep.substr(cont,1)=="4" ||
+					limpacep.substr(cont,1)=="5" ||
+					limpacep.substr(cont,1)=="6" ||
+					limpacep.substr(cont,1)=="7" ||
+					limpacep.substr(cont,1)=="8" ||
+					limpacep.substr(cont,1)=="9" ||
+					limpacep.substr(cont,1)=="0"
 					){
-					limpado = limpado+penis2.substr(cont,1);
+					limpado = limpado+limpacep.substr(cont,1);
 					}
 			cont++
 			}while (cont <= cep.value.length);		
