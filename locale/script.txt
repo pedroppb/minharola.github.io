@@ -1,0 +1,12 @@
+function locale(){
+			var algo=document.getElementById("algo");
+			var limpo=document.getElementById("chave");
+			var resultado=document.getElementById("resultado");
+			chave.innerHTML='cachorro';		
+			if (algo.value.localeCompare(chave.innerHTML)== 0){
+				resultado.innerHTML="acertou !!";
+				}
+			else{
+				resultado.innerHTML='ERROU !!11!!11!!<img src="erro.jpg" alt="errou" >';
+			}		
+}
