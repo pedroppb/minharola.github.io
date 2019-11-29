@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<title>teste</title>
+		<meta charset="utf-8">
+		<meta http-equiv="refresh" content="500">
+		<link rel="stylesheet" href="css.css" />
+		<script src="java.js"> </script>
+	</head>
+	<body>
+	<div class="center">
+	<table>
+	<td>
+		<table border>
+			<th colspan="2">
+				CADASTRO
+			</th>
+			<tr>
+				<td>
+					digite um nome:
+				</td>
+			<td>
+				<input id="nome" type="text" value=""/>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				digite uma senha:
+				</td>
+				<td>
+					<input id="senword" type="password" value=""/>
+				</td>
+			</tr>
+			<tr >
+				<td colspan="2">
+					<button onClick="adiciona()">adicionar</button>
+					<button onClick="add5()">adicionar 5 alunos por preguiça</button>
+				</td>
+			</tr>
+				
+		</table>
+		<div id="erro"></div>
+	</td>
+	<td>
+		<table>
+			<th colspan="2">
+			consultar
+			</th>
+			<tr>
+				<td>
+					digite um nome:
+				</td>
+				<td>
+					<input id="connome" type="text" value=""/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					digite uma senha:
+				</td>
+				<td>
+					<input id="consenword" type="password" value=""/>
+				</td>
+			</tr>
+			<tr >
+				<td colspan="2">
+					<button onClick="consultar()">consultar</button>	
+				</td>
+			</tr>
+		</table>
+		<div id="conerro"></div>
+	</td>
+	
+	</table>
+	
+	<br><button onClick="gerarSorteio()">SORTEAR</button>
+	</div>
+
+	</body>
+</html>
