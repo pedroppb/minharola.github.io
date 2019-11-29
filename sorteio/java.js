@@ -21,13 +21,13 @@ function add5(){
 
 function adiciona(){
 	if(document.getElementById("nome").value=="" || document.getElementById("senword").value==""){
-		console.log("dfsfs");
 		document.getElementById("erro").innerHTML = "o nome e/ou senha nao podem estar em branco";
-	}else{
+	}else if( nomes.indexOf(document.getElementById("nome").value)!=-1 ){
+		document.getElementById("erro").innerHTML = "o nome ja esta cadastrado";
+		}else{
 		nomes.push(document.getElementById("nome").value);
 		passnha.push(document.getElementById("senword").value);
 		document.getElementById("erro").innerHTML = "";
-		console.log(passnha);
 	}
 }
 
