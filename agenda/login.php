@@ -1,5 +1,5 @@
 <?php
-include './db.ph';
+include './db.php';
 $cWhere1 = "nope";
 $cWhere2 = "nope";
 $loginusr="";
