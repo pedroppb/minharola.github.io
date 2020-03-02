@@ -7,7 +7,7 @@
 	<table border>
 		<tr>
 			<td>
-				<form action="verifica.php" method="POST">
+				
 				<table border >
 					<tr>
 						<th colspan="2">Usuário já Cadastrado</th>
@@ -21,11 +21,15 @@
 						<td><input type="text" name="password" value=""/></td>
 					</tr>
 					<tr>
-						<td ><input type="submit" name="login" value="Login"/></td>
-            <td ><input type="submit" name="cadastrar" value="cadastro"/></td>
+						<form action="login.php" method="GET">
+							<td ><input type="submit" name="login" value="Login"/></td>
+						</form>
+						<form action="cadastro.php" method="GET">
+							<td ><input type="submit" name="cadastrar" value="cadastro"/></td>
+						</form>
 					</tr>
 				</table>
-				</form>
+				
 			</td>
 		</tr>
 
