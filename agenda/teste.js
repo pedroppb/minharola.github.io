@@ -1,9 +1,9 @@
 var mysql = require('mysql');
 
 var con = mysql.createConnection({
-  host: "databases.000webhost.com",
-  user: "id12687258_pedroppbdb",
-  password: "pedroppbdb"
+  host: "remotemysql.com",
+  user: "RI4FkoJefk",
+  password: "m1DitZXPuU"
 });
 
 con.connect(function(err) {
