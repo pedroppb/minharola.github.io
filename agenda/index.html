@@ -2,6 +2,8 @@
 <html lang="pt-br">
 <head>
 <meta charset="utf-8">
+<script src="login.js"> </script>
+<script src="cadastra.js"> </script>
 </head>
 <body>
 	<table border>
@@ -21,12 +23,8 @@
 						<td><input type="text" name="password" value=""/></td>
 					</tr>
 					<tr>
-						<form action="login.php" method="GET">
-							<td ><input type="submit" name="login" value="Login"/></td>
-						</form>
-						<form action="cadastro.php" method="GET">
-							<td ><input type="submit" name="cadastrar" value="cadastro"/></td>
-						</form>
+						<td><button onClick="login()" id="login">login</button></td
+						<td><button onClick="cadastrar()" id="cadastrar">cadstro</button></td
 					</tr>
 				</table>
 				
