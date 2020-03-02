@@ -1,7 +1,7 @@
 <?php
 include './db.php';
-$cWhere1 = "nope";
-$cWhere2 = "nope";
+$cWhere1 = "";
+$cWhere2 = "";
 $loginusr="";
 $text="";
 
